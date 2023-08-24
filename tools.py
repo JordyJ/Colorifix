@@ -19,7 +19,6 @@ def raw_data_to_df(dilutions, wavelengths, absorbances, wells, names):
     return df
 
 def import_data(filename: str):
-    # Docstring:    
     
     # Check whether the file is a csv file
     if filename[-4:].lower() != '.csv':
