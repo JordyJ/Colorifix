@@ -25,5 +25,5 @@ As in the calibration dataset, I remove the background signal again and limit th
 
 Having previously confirmed that the Absorptivity coefficient is not a function of concentration, I use it to linearly interpolate the concentration of the sample, by inverting the Beer-Lambert equation. 
 
-For each measurement of the sample pigment at each wavelength, I linearly interpolate the concentration and calculate an error on each estimate. I take a weighed mean of the concentration measurements, weighting by an inverse fano-factor. Using a weighed mean I estimate the concentration of the unkown pigment to be 43.1 +/- 4.8 mg/L. Limiting the estimate to just around the central peak, where there is less uncertainty in the estimate, a the mean of the concentration estimates is 43.2 +/- 1.1 mg/L.
+For each measurement of the sample pigment at each wavelength, I linearly interpolate the concentration and calculate an error on each estimate. I take a weighed mean of the concentration measurements, weighting by an inverse fano-factor. Using a weighed mean I estimate the concentration of the unkown pigment to be 43.1 +/- 4.8 mg/L. Limiting the estimate to just around the central peak, where there is less uncertainty in the estimate, the mean of the concentration estimates is 43.2 +/- 1.1 mg/L.
 
