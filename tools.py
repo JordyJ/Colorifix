@@ -11,7 +11,7 @@ def raw_data_to_df(dilutions, wavelengths, absorbances, wells, names):
     df["Well"] = np.repeat(wells, np.shape(wavelengths))
     df["Wavelength"] = np.tile(wavelengths, np.shape(dilutions) )
     df["Dilution"] = np.repeat(dilutions, np.shape(wavelengths))
-    df["Absorbance"] = np.ravel(absorbances)
+    df["Raw Absorbance"] = np.ravel(absorbances)
     
     # Sort the dataframe by the Sample, Dilution, then Wavelength so that triplicates end up together
     df = df.sort_values(by=["Sample","Dilution","Wavelength",])
